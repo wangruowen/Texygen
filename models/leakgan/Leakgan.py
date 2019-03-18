@@ -61,7 +61,7 @@ class Leakgan(Gan):
         flags.DEFINE_boolean('resD', False, 'Training or testing a D model')
         flags.DEFINE_integer('length', 20, 'The length of toy data')
         flags.DEFINE_string('model', "", 'Model NAME')
-        self.sequence_length = FLAGS.length
+        self.sequence_length = 20 # FLAGS.length
         self.filter_size = [2, 3]
         self.num_filters = [100, 200]
         self.l2_reg_lambda = 0.2
