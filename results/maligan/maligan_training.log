@@ -1,0 +1,388 @@
+WARNING:tensorflow:From /home/ubuntu/git/Texygen/models/maligan_basic/MailganDiscriminator.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+WARNING:tensorflow:From /home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:1124: sparse_to_dense (from tensorflow.python.ops.sparse_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Create a `tf.sparse.SparseTensor` and use `tf.sparse.to_dense` instead.
+WARNING:tensorflow:From /home/ubuntu/git/Texygen/utils/metrics/DocEmbSim.py:127: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+start pre-train generator:
+epoch:0	 time:58.048542976379395
+time elapsed of EmbeddingSimilarity: 140.90547609329224
+time elapsed of nll-test: 20.16050910949707
+epoch:1	EmbeddingSimilarity:-0.007602569181984691	nll-test:2.5116177	
+epoch:1	 time:53.950350522994995
+epoch:2	 time:53.97461175918579
+epoch:3	 time:53.98401379585266
+epoch:4	 time:53.939040422439575
+epoch:5	 time:53.97993993759155
+time elapsed of EmbeddingSimilarity: 53.03849220275879
+time elapsed of nll-test: 20.109545707702637
+epoch:6	EmbeddingSimilarity:-0.005707797135381871	nll-test:1.9080424	
+epoch:6	 time:53.97680950164795
+epoch:7	 time:53.992950677871704
+epoch:8	 time:53.95182943344116
+epoch:9	 time:53.96074914932251
+epoch:10	 time:53.970781326293945
+time elapsed of EmbeddingSimilarity: 52.93241238594055
+time elapsed of nll-test: 20.084877490997314
+epoch:11	EmbeddingSimilarity:-0.005702162553044739	nll-test:1.7574576	
+epoch:11	 time:53.99563241004944
+epoch:12	 time:54.027557134628296
+epoch:13	 time:54.00531792640686
+epoch:14	 time:54.03836727142334
+epoch:15	 time:54.05268621444702
+time elapsed of EmbeddingSimilarity: 52.990209102630615
+time elapsed of nll-test: 20.085289001464844
+epoch:16	EmbeddingSimilarity:-0.005432528228589882	nll-test:1.7005861	
+epoch:16	 time:54.076390504837036
+epoch:17	 time:54.118643283843994
+epoch:18	 time:54.163039445877075
+epoch:19	 time:54.16375112533569
+epoch:20	 time:54.22218632698059
+time elapsed of EmbeddingSimilarity: 53.036898612976074
+time elapsed of nll-test: 20.12586545944214
+epoch:21	EmbeddingSimilarity:-0.005632939507537206	nll-test:1.6712888	
+epoch:21	 time:54.25249004364014
+epoch:22	 time:54.20699071884155
+epoch:23	 time:54.218316078186035
+epoch:24	 time:54.294097900390625
+epoch:25	 time:54.25391411781311
+time elapsed of EmbeddingSimilarity: 52.986793994903564
+time elapsed of nll-test: 20.16695499420166
+epoch:26	EmbeddingSimilarity:-0.005430063525693324	nll-test:1.6470208	
+epoch:26	 time:54.28032636642456
+epoch:27	 time:54.275386333465576
+epoch:28	 time:54.34560298919678
+epoch:29	 time:54.40153980255127
+epoch:30	 time:54.377198696136475
+time elapsed of EmbeddingSimilarity: 53.03988170623779
+time elapsed of nll-test: 20.238464832305908
+epoch:31	EmbeddingSimilarity:-0.005549834240687322	nll-test:1.6397724	
+epoch:31	 time:54.40724325180054
+epoch:32	 time:54.445401430130005
+epoch:33	 time:54.42406129837036
+epoch:34	 time:54.46884322166443
+epoch:35	 time:54.48862552642822
+time elapsed of EmbeddingSimilarity: 53.01823449134827
+time elapsed of nll-test: 20.328447103500366
+epoch:36	EmbeddingSimilarity:-0.005817544541061682	nll-test:1.6355494	
+epoch:36	 time:54.48348379135132
+epoch:37	 time:54.51639127731323
+epoch:38	 time:54.50088810920715
+epoch:39	 time:54.58316159248352
+epoch:40	 time:54.53581643104553
+time elapsed of EmbeddingSimilarity: 52.93130850791931
+time elapsed of nll-test: 20.40352439880371
+epoch:41	EmbeddingSimilarity:-0.005609306305065937	nll-test:1.6184347	
+epoch:41	 time:54.58817458152771
+epoch:42	 time:54.61714816093445
+epoch:43	 time:54.59003829956055
+epoch:44	 time:54.604344606399536
+epoch:45	 time:54.663169384002686
+time elapsed of EmbeddingSimilarity: 52.94666624069214
+time elapsed of nll-test: 20.426485061645508
+epoch:46	EmbeddingSimilarity:-0.005617269502642435	nll-test:1.6128736	
+epoch:46	 time:54.619793176651
+epoch:47	 time:54.67515254020691
+epoch:48	 time:54.7072856426239
+epoch:49	 time:54.684168100357056
+epoch:50	 time:54.699491024017334
+time elapsed of EmbeddingSimilarity: 52.960583209991455
+time elapsed of nll-test: 20.429086208343506
+epoch:51	EmbeddingSimilarity:-0.005673726131672628	nll-test:1.6028116	
+epoch:51	 time:54.66630983352661
+epoch:52	 time:54.72848963737488
+epoch:53	 time:54.72553515434265
+epoch:54	 time:54.76524114608765
+epoch:55	 time:54.761569023132324
+time elapsed of EmbeddingSimilarity: 53.02741861343384
+time elapsed of nll-test: 20.463997840881348
+epoch:56	EmbeddingSimilarity:-0.00553345383686737	nll-test:1.595937	
+epoch:56	 time:54.749847650527954
+epoch:57	 time:54.72904706001282
+epoch:58	 time:54.765448331832886
+epoch:59	 time:54.75170278549194
+epoch:60	 time:54.73172402381897
+time elapsed of EmbeddingSimilarity: 52.95553922653198
+time elapsed of nll-test: 20.48852515220642
+epoch:61	EmbeddingSimilarity:-0.005574248993967237	nll-test:1.588163	
+epoch:61	 time:54.767380714416504
+epoch:62	 time:54.74018716812134
+epoch:63	 time:54.74678063392639
+epoch:64	 time:54.758968353271484
+epoch:65	 time:54.75624203681946
+time elapsed of EmbeddingSimilarity: 52.87080979347229
+time elapsed of nll-test: 20.54931092262268
+epoch:66	EmbeddingSimilarity:-0.005443723777478665	nll-test:1.5795753	
+epoch:66	 time:54.73318004608154
+epoch:67	 time:54.74357748031616
+epoch:68	 time:54.778719425201416
+epoch:69	 time:54.78014636039734
+epoch:70	 time:54.812363386154175
+time elapsed of EmbeddingSimilarity: 52.97696352005005
+time elapsed of nll-test: 20.56646490097046
+epoch:71	EmbeddingSimilarity:-0.005553433831613088	nll-test:1.5748662	
+epoch:71	 time:54.7807252407074
+epoch:72	 time:54.770724296569824
+epoch:73	 time:54.782127380371094
+epoch:74	 time:54.798670291900635
+epoch:75	 time:54.81330418586731
+time elapsed of EmbeddingSimilarity: 52.81857967376709
+time elapsed of nll-test: 20.517365217208862
+epoch:76	EmbeddingSimilarity:-0.005672046594791353	nll-test:1.5744915	
+epoch:76	 time:54.81365394592285
+epoch:77	 time:54.82352805137634
+epoch:78	 time:54.816115617752075
+epoch:79	 time:54.83434176445007
+start pre-train discriminator:
+epoch:0
+epoch:1
+epoch:2
+epoch:3
+epoch:4
+epoch:5
+epoch:6
+epoch:7
+epoch:8
+epoch:9
+epoch:10
+epoch:11
+epoch:12
+epoch:13
+epoch:14
+epoch:15
+epoch:16
+epoch:17
+epoch:18
+epoch:19
+epoch:20
+epoch:21
+epoch:22
+epoch:23
+epoch:24
+epoch:25
+epoch:26
+epoch:27
+epoch:28
+epoch:29
+epoch:30
+epoch:31
+epoch:32
+epoch:33
+epoch:34
+epoch:35
+epoch:36
+epoch:37
+epoch:38
+epoch:39
+epoch:40
+epoch:41
+epoch:42
+epoch:43
+epoch:44
+epoch:45
+epoch:46
+epoch:47
+epoch:48
+epoch:49
+epoch:50
+epoch:51
+epoch:52
+epoch:53
+epoch:54
+epoch:55
+epoch:56
+epoch:57
+epoch:58
+epoch:59
+epoch:60
+epoch:61
+epoch:62
+epoch:63
+epoch:64
+epoch:65
+epoch:66
+epoch:67
+epoch:68
+epoch:69
+epoch:70
+epoch:71
+epoch:72
+epoch:73
+epoch:74
+epoch:75
+epoch:76
+epoch:77
+epoch:78
+epoch:79
+adversarial training:
+epoch:81	 time:0.6799981594085693
+time elapsed of EmbeddingSimilarity: 52.89236879348755
+time elapsed of nll-test: 20.488526582717896
+epoch:81	EmbeddingSimilarity:-0.0055234515794275385	nll-test:1.5696877	
+epoch:82	 time:0.3581075668334961
+epoch:83	 time:0.3590421676635742
+epoch:84	 time:0.358140230178833
+epoch:85	 time:0.35869526863098145
+epoch:86	 time:0.35766124725341797
+time elapsed of EmbeddingSimilarity: 53.26451873779297
+time elapsed of nll-test: 20.538768529891968
+epoch:86	EmbeddingSimilarity:-0.005685492130357292	nll-test:1.5863713	
+epoch:87	 time:0.3574047088623047
+epoch:88	 time:0.3580613136291504
+epoch:89	 time:0.3581867218017578
+epoch:90	 time:0.3559138774871826
+epoch:91	 time:0.3593332767486572
+time elapsed of EmbeddingSimilarity: 53.05872106552124
+time elapsed of nll-test: 20.523700714111328
+epoch:91	EmbeddingSimilarity:-0.006132330959615866	nll-test:1.6091892	
+epoch:92	 time:0.3580806255340576
+epoch:93	 time:0.3594679832458496
+epoch:94	 time:0.3581869602203369
+epoch:95	 time:0.359696626663208
+epoch:96	 time:0.36063408851623535
+time elapsed of EmbeddingSimilarity: 53.07625937461853
+time elapsed of nll-test: 20.55148696899414
+epoch:96	EmbeddingSimilarity:-0.005882789161543919	nll-test:1.6221967	
+epoch:97	 time:0.359663724899292
+epoch:98	 time:0.35808777809143066
+epoch:99	 time:0.3623020648956299
+epoch:100	 time:0.3584258556365967
+epoch:101	 time:0.3579223155975342
+time elapsed of EmbeddingSimilarity: 53.128294467926025
+time elapsed of nll-test: 20.51222515106201
+epoch:101	EmbeddingSimilarity:-0.005966170112341037	nll-test:1.635088	
+epoch:102	 time:0.3582725524902344
+epoch:103	 time:0.35645604133605957
+epoch:104	 time:0.35750913619995117
+epoch:105	 time:0.35767054557800293
+epoch:106	 time:0.3588216304779053
+time elapsed of EmbeddingSimilarity: 53.06076216697693
+time elapsed of nll-test: 20.513866186141968
+epoch:106	EmbeddingSimilarity:-0.006092901649655124	nll-test:1.6535736	
+epoch:107	 time:0.3566739559173584
+epoch:108	 time:0.35891246795654297
+epoch:109	 time:0.35709333419799805
+epoch:110	 time:0.3564741611480713
+epoch:111	 time:0.3612818717956543
+time elapsed of EmbeddingSimilarity: 53.05879259109497
+time elapsed of nll-test: 20.509963274002075
+epoch:111	EmbeddingSimilarity:-0.006014749853080924	nll-test:1.6758071	
+epoch:112	 time:0.357069730758667
+epoch:113	 time:0.357302188873291
+epoch:114	 time:0.3589820861816406
+epoch:115	 time:0.3582491874694824
+epoch:116	 time:0.3572359085083008
+time elapsed of EmbeddingSimilarity: 53.10749530792236
+time elapsed of nll-test: 20.514435291290283
+epoch:116	EmbeddingSimilarity:-0.006114466103277539	nll-test:1.6892055	
+epoch:117	 time:0.35890913009643555
+epoch:118	 time:0.3566148281097412
+epoch:119	 time:0.3603029251098633
+epoch:120	 time:0.35829877853393555
+epoch:121	 time:0.35982799530029297
+time elapsed of EmbeddingSimilarity: 53.11871957778931
+time elapsed of nll-test: 20.52554488182068
+epoch:121	EmbeddingSimilarity:-0.006306580772709548	nll-test:1.7041545	
+epoch:122	 time:0.35776710510253906
+epoch:123	 time:0.3618590831756592
+epoch:124	 time:0.35834431648254395
+epoch:125	 time:0.35609889030456543
+epoch:126	 time:0.36179399490356445
+time elapsed of EmbeddingSimilarity: 53.07574248313904
+time elapsed of nll-test: 20.51026439666748
+epoch:126	EmbeddingSimilarity:-0.006094125523412574	nll-test:1.7123905	
+epoch:127	 time:0.35807156562805176
+epoch:128	 time:0.35717177391052246
+epoch:129	 time:0.36043286323547363
+epoch:130	 time:0.36173534393310547
+epoch:131	 time:0.3570692539215088
+time elapsed of EmbeddingSimilarity: 53.19229245185852
+time elapsed of nll-test: 20.54052472114563
+epoch:131	EmbeddingSimilarity:-0.006357829328957675	nll-test:1.725294	
+epoch:132	 time:0.3582644462585449
+epoch:133	 time:0.35825538635253906
+epoch:134	 time:0.36060237884521484
+epoch:135	 time:0.35647010803222656
+epoch:136	 time:0.3568105697631836
+time elapsed of EmbeddingSimilarity: 53.09791612625122
+time elapsed of nll-test: 20.537278413772583
+epoch:136	EmbeddingSimilarity:-0.006651544685958535	nll-test:1.7421046	
+epoch:137	 time:0.3555424213409424
+epoch:138	 time:0.35831212997436523
+epoch:139	 time:0.3580348491668701
+epoch:140	 time:0.3558473587036133
+epoch:141	 time:0.35826611518859863
+time elapsed of EmbeddingSimilarity: 53.05804991722107
+time elapsed of nll-test: 20.50439739227295
+epoch:141	EmbeddingSimilarity:-0.006622367101028713	nll-test:1.7578739	
+epoch:142	 time:0.35718750953674316
+epoch:143	 time:0.35759472846984863
+epoch:144	 time:0.3580155372619629
+epoch:145	 time:0.36114072799682617
+epoch:146	 time:0.3602423667907715
+time elapsed of EmbeddingSimilarity: 53.09168076515198
+time elapsed of nll-test: 20.489309072494507
+epoch:146	EmbeddingSimilarity:-0.006737343954526353	nll-test:1.768303	
+epoch:147	 time:0.3592674732208252
+epoch:148	 time:0.3566131591796875
+epoch:149	 time:0.3582925796508789
+epoch:150	 time:0.35913515090942383
+epoch:151	 time:0.35770297050476074
+time elapsed of EmbeddingSimilarity: 53.04437732696533
+time elapsed of nll-test: 20.508490562438965
+epoch:151	EmbeddingSimilarity:-0.006720229997706272	nll-test:1.7727607	
+epoch:152	 time:0.36302924156188965
+epoch:153	 time:0.35620594024658203
+epoch:154	 time:0.35582923889160156
+epoch:155	 time:0.3602464199066162
+epoch:156	 time:0.35943078994750977
+time elapsed of EmbeddingSimilarity: 53.12997603416443
+time elapsed of nll-test: 20.48519253730774
+epoch:156	EmbeddingSimilarity:-0.006846667583448759	nll-test:1.7871792	
+epoch:157	 time:0.3582942485809326
+epoch:158	 time:0.3572676181793213
+epoch:159	 time:0.3567042350769043
+epoch:160	 time:0.3591461181640625
+epoch:161	 time:0.3570418357849121
+time elapsed of EmbeddingSimilarity: 53.05902600288391
+time elapsed of nll-test: 20.5090434551239
+epoch:161	EmbeddingSimilarity:-0.006905465024111728	nll-test:1.8036873	
+epoch:162	 time:0.35955047607421875
+epoch:163	 time:0.35759449005126953
+epoch:164	 time:0.35820817947387695
+epoch:165	 time:0.35693359375
+epoch:166	 time:0.35657715797424316
+time elapsed of EmbeddingSimilarity: 53.1412832736969
+time elapsed of nll-test: 20.48960041999817
+epoch:166	EmbeddingSimilarity:-0.007119911757902001	nll-test:1.8228056	
+epoch:167	 time:0.35744643211364746
+epoch:168	 time:0.36009860038757324
+epoch:169	 time:0.35730600357055664
+epoch:170	 time:0.3552896976470947
+epoch:171	 time:0.3547990322113037
+time elapsed of EmbeddingSimilarity: 53.07006645202637
+time elapsed of nll-test: 20.518759965896606
+epoch:171	EmbeddingSimilarity:-0.007417057662331142	nll-test:1.8380829	
+epoch:172	 time:0.356182336807251
+epoch:173	 time:0.36282968521118164
+epoch:174	 time:0.3592071533203125
+epoch:175	 time:0.35590505599975586
+epoch:176	 time:0.35702085494995117
+time elapsed of EmbeddingSimilarity: 53.11492991447449
+time elapsed of nll-test: 20.52330780029297
+epoch:176	EmbeddingSimilarity:-0.0075676107255914045	nll-test:1.8467926	
+epoch:177	 time:0.35689330101013184
+epoch:178	 time:0.35762929916381836
+epoch:179	 time:0.35829782485961914
+epoch:180	 time:0.3572051525115967
+time elapsed of EmbeddingSimilarity: 53.24279546737671
+time elapsed of nll-test: 20.477601051330566
+epoch:180	EmbeddingSimilarity:-0.00719520351359951	nll-test:1.8502338	
