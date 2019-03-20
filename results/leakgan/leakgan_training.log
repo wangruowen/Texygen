@@ -1,0 +1,686 @@
+WARNING:tensorflow:From /home/ubuntu/git/Texygen/models/leakgan/LeakganDiscriminator.py:92: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+WARNING:tensorflow:From /home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:1124: sparse_to_dense (from tensorflow.python.ops.sparse_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Create a `tf.sparse.SparseTensor` and use `tf.sparse.to_dense` instead.
+WARNING:tensorflow:From /home/ubuntu/git/Texygen/utils/metrics/DocEmbSim.py:127: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+(64, ?, 300)
+(?, ?, 300)
+start pre-train generator:
+epoch:0	 time:291.0474865436554
+time elapsed of EmbeddingSimilarity: 140.24114274978638
+time elapsed of nll-test: 286.2230267524719
+epoch:1	EmbeddingSimilarity:-0.005954844705903258	nll-test:2.3216012	
+epoch:1	 time:286.1298015117645
+epoch:2	 time:286.12638688087463
+epoch:3	 time:286.1047008037567
+epoch:4	 time:286.17348051071167
+epoch:5	 time:286.1799666881561
+time elapsed of EmbeddingSimilarity: 54.66016721725464
+time elapsed of nll-test: 286.00767946243286
+epoch:6	EmbeddingSimilarity:-0.0053392501032455955	nll-test:1.7187995	
+epoch:6	 time:286.00343084335327
+epoch:7	 time:286.07455110549927
+epoch:8	 time:286.1575629711151
+epoch:9	 time:286.0955820083618
+epoch:10	 time:286.0869023799896
+time elapsed of EmbeddingSimilarity: 54.69343185424805
+time elapsed of nll-test: 286.1603260040283
+epoch:11	EmbeddingSimilarity:-0.005562580645472099	nll-test:1.5534129	
+epoch:11	 time:286.13420844078064
+epoch:12	 time:286.1165406703949
+epoch:13	 time:286.0937297344208
+epoch:14	 time:286.15068435668945
+epoch:15	 time:286.1665732860565
+time elapsed of EmbeddingSimilarity: 54.58139514923096
+time elapsed of nll-test: 286.2167971134186
+epoch:16	EmbeddingSimilarity:-0.005642705909340826	nll-test:1.4528311	
+epoch:16	 time:286.220871925354
+epoch:17	 time:286.25298738479614
+epoch:18	 time:286.28835797309875
+epoch:19	 time:286.2887427806854
+epoch:20	 time:286.3294813632965
+time elapsed of EmbeddingSimilarity: 54.65581178665161
+time elapsed of nll-test: 286.3860228061676
+epoch:21	EmbeddingSimilarity:-0.01899208415872292	nll-test:1.6346747	
+epoch:21	 time:286.35984683036804
+epoch:22	 time:286.19368743896484
+epoch:23	 time:286.1248071193695
+epoch:24	 time:286.1302180290222
+epoch:25	 time:286.1230499744415
+time elapsed of EmbeddingSimilarity: 54.53770136833191
+time elapsed of nll-test: 286.22812128067017
+epoch:26	EmbeddingSimilarity:-0.005489470745758408	nll-test:1.3925023	
+epoch:26	 time:286.27674770355225
+epoch:27	 time:286.2234799861908
+epoch:28	 time:286.2031979560852
+epoch:29	 time:286.1782500743866
+epoch:30	 time:286.2000126838684
+time elapsed of EmbeddingSimilarity: 54.53069996833801
+time elapsed of nll-test: 286.2269334793091
+epoch:31	EmbeddingSimilarity:-0.009453436141384733	nll-test:1.3504174	
+epoch:31	 time:286.11931252479553
+epoch:32	 time:286.191379070282
+epoch:33	 time:286.2376687526703
+epoch:34	 time:286.2910668849945
+epoch:35	 time:286.2484664916992
+time elapsed of EmbeddingSimilarity: 54.53734874725342
+time elapsed of nll-test: 286.34544134140015
+epoch:36	EmbeddingSimilarity:-0.005232830007890037	nll-test:1.3025303	
+epoch:36	 time:286.27290320396423
+epoch:37	 time:286.2785334587097
+epoch:38	 time:286.3026919364929
+epoch:39	 time:286.35803508758545
+epoch:40	 time:286.31540060043335
+time elapsed of EmbeddingSimilarity: 54.59912919998169
+time elapsed of nll-test: 286.2267098426819
+epoch:41	EmbeddingSimilarity:-0.03240744625002756	nll-test:2.0342479	
+epoch:41	 time:286.1112148761749
+epoch:42	 time:286.04245829582214
+epoch:43	 time:286.0963716506958
+epoch:44	 time:286.0735161304474
+epoch:45	 time:286.0860207080841
+time elapsed of EmbeddingSimilarity: 54.411296129226685
+time elapsed of nll-test: 286.014652967453
+epoch:46	EmbeddingSimilarity:-0.005572776105860725	nll-test:1.3239512	
+epoch:46	 time:286.0512042045593
+epoch:47	 time:286.13550996780396
+epoch:48	 time:286.1502456665039
+epoch:49	 time:286.2144310474396
+epoch:50	 time:286.1833531856537
+time elapsed of EmbeddingSimilarity: 54.63507699966431
+time elapsed of nll-test: 286.16851472854614
+epoch:51	EmbeddingSimilarity:-0.005237289291444985	nll-test:1.2989461	
+epoch:51	 time:286.21963000297546
+epoch:52	 time:286.3411045074463
+epoch:53	 time:286.3071370124817
+epoch:54	 time:286.29082322120667
+epoch:55	 time:286.2874004840851
+time elapsed of EmbeddingSimilarity: 54.49596643447876
+time elapsed of nll-test: 286.1776387691498
+epoch:56	EmbeddingSimilarity:-0.005111344322338812	nll-test:1.2938119	
+epoch:56	 time:286.14681005477905
+epoch:57	 time:286.30924701690674
+epoch:58	 time:286.3724057674408
+epoch:59	 time:286.3361339569092
+epoch:60	 time:286.35806608200073
+time elapsed of EmbeddingSimilarity: 54.59929800033569
+time elapsed of nll-test: 286.3784120082855
+epoch:61	EmbeddingSimilarity:-0.005376812822960666	nll-test:1.2670285	
+epoch:61	 time:286.33650636672974
+epoch:62	 time:286.43765664100647
+epoch:63	 time:286.3066475391388
+epoch:64	 time:286.27062726020813
+epoch:65	 time:286.27114152908325
+time elapsed of EmbeddingSimilarity: 54.489296436309814
+time elapsed of nll-test: 286.3083281517029
+epoch:66	EmbeddingSimilarity:-0.005461152819576645	nll-test:1.2573555	
+epoch:66	 time:286.3210029602051
+epoch:67	 time:286.31942319869995
+epoch:68	 time:286.3544371128082
+epoch:69	 time:286.3329517841339
+epoch:70	 time:286.3868319988251
+time elapsed of EmbeddingSimilarity: 54.501649379730225
+time elapsed of nll-test: 286.5264346599579
+epoch:71	EmbeddingSimilarity:-0.005192810265834998	nll-test:1.2758431	
+epoch:71	 time:286.61756110191345
+epoch:72	 time:286.52221965789795
+epoch:73	 time:286.502592086792
+epoch:74	 time:286.515841960907
+epoch:75	 time:286.529337644577
+time elapsed of EmbeddingSimilarity: 54.49545335769653
+time elapsed of nll-test: 286.59178042411804
+epoch:76	EmbeddingSimilarity:-0.005236688379700318	nll-test:1.2554704	
+epoch:76	 time:286.6859118938446
+epoch:77	 time:286.65482449531555
+epoch:78	 time:286.628618478775
+epoch:79	 time:286.68055486679077
+start pre-train discriminator:
+epoch:0
+epoch:1
+epoch:2
+epoch:3
+epoch:4
+epoch:5
+epoch:6
+epoch:7
+epoch:8
+epoch:9
+epoch:10
+epoch:11
+epoch:12
+epoch:13
+epoch:14
+epoch:15
+epoch:16
+epoch:17
+epoch:18
+epoch:19
+epoch:20
+epoch:21
+epoch:22
+epoch:23
+epoch:24
+epoch:25
+epoch:26
+epoch:27
+epoch:28
+epoch:29
+epoch:30
+epoch:31
+epoch:32
+epoch:33
+epoch:34
+epoch:35
+epoch:36
+epoch:37
+epoch:38
+epoch:39
+epoch:40
+epoch:41
+epoch:42
+epoch:43
+epoch:44
+epoch:45
+epoch:46
+epoch:47
+epoch:48
+epoch:49
+epoch:50
+epoch:51
+epoch:52
+epoch:53
+epoch:54
+epoch:55
+epoch:56
+epoch:57
+epoch:58
+epoch:59
+epoch:60
+epoch:61
+epoch:62
+epoch:63
+epoch:64
+epoch:65
+epoch:66
+epoch:67
+epoch:68
+epoch:69
+epoch:70
+epoch:71
+epoch:72
+epoch:73
+epoch:74
+epoch:75
+epoch:76
+epoch:77
+epoch:78
+epoch:79
+epoch:0--0
+epoch 0 g_loss -0.015248199 w_loss 0.10162757
+epoch:0--0	 time:32.10353755950928
+time elapsed of EmbeddingSimilarity: 54.57815861701965
+time elapsed of nll-test: 286.62982296943665
+epoch:81	EmbeddingSimilarity:-0.005313947199025497	nll-test:1.2531068	
+epoch:0--1
+epoch 0 g_loss -0.021536661 w_loss 0.17996174
+epoch:0--1	 time:26.566916704177856
+time elapsed of EmbeddingSimilarity: 54.53591799736023
+time elapsed of nll-test: 286.60475158691406
+epoch:82	EmbeddingSimilarity:-0.005168814326622956	nll-test:1.2430449	
+epoch:0--2
+epoch 0 g_loss -0.022242809 w_loss 0.20418033
+epoch:0--2	 time:26.57400393486023
+time elapsed of EmbeddingSimilarity: 54.58886170387268
+time elapsed of nll-test: 286.5342137813568
+epoch:83	EmbeddingSimilarity:-0.0051747148104992905	nll-test:1.233727	
+epoch:0--3
+epoch 0 g_loss -0.02092705 w_loss 0.16179779
+epoch:0--3	 time:26.49740982055664
+time elapsed of EmbeddingSimilarity: 54.52622842788696
+time elapsed of nll-test: 286.6365566253662
+epoch:84	EmbeddingSimilarity:-0.005213445657268918	nll-test:1.2272826	
+epoch:0--4
+epoch 0 g_loss -0.021713272 w_loss 0.16672815
+epoch:0--4	 time:26.57571268081665
+time elapsed of EmbeddingSimilarity: 54.636861085891724
+time elapsed of nll-test: 286.818119764328
+epoch:85	EmbeddingSimilarity:-0.00519820616687289	nll-test:1.2129592	
+epoch:0--5
+epoch 0 g_loss -0.02160607 w_loss 0.16046673
+epoch:0--5	 time:26.579363346099854
+time elapsed of EmbeddingSimilarity: 54.56369614601135
+time elapsed of nll-test: 286.73158025741577
+epoch:86	EmbeddingSimilarity:-0.0052735383683723495	nll-test:1.2051499	
+epoch:0--6
+epoch 0 g_loss -0.021935023 w_loss 0.16377495
+epoch:0--6	 time:26.628802061080933
+time elapsed of EmbeddingSimilarity: 54.532013177871704
+time elapsed of nll-test: 286.7676703929901
+epoch:87	EmbeddingSimilarity:-0.005281758371815358	nll-test:1.206089	
+epoch:0--7
+epoch 0 g_loss -0.022651363 w_loss 0.19143413
+epoch:0--7	 time:26.61332130432129
+time elapsed of EmbeddingSimilarity: 54.55862092971802
+time elapsed of nll-test: 286.72232031822205
+epoch:88	EmbeddingSimilarity:-0.005491889608801733	nll-test:1.1996415	
+epoch:0--8
+epoch 0 g_loss -0.022837287 w_loss 0.20216197
+epoch:0--8	 time:26.648099660873413
+time elapsed of EmbeddingSimilarity: 54.587010860443115
+time elapsed of nll-test: 286.88159918785095
+epoch:89	EmbeddingSimilarity:-0.005534186219421939	nll-test:1.1972615	
+epoch:0--9
+epoch 0 g_loss -0.021214403 w_loss 0.16087157
+epoch:0--9	 time:26.602253437042236
+time elapsed of EmbeddingSimilarity: 54.57763648033142
+time elapsed of nll-test: 286.8639075756073
+epoch:90	EmbeddingSimilarity:-0.005299115812981211	nll-test:1.1953044	
+epoch:0--0	 time:286.82819390296936
+epoch:0--1	 time:286.8978228569031
+epoch:0--2	 time:287.0792694091797
+epoch:0--3	 time:287.0625698566437
+epoch:0--4	 time:287.0281300544739
+epoch:0--0
+epoch:0--1
+epoch:0--2
+epoch:0--3
+epoch:0--4
+epoch:1--0
+epoch 1 g_loss -0.021220142 w_loss 0.26193383
+epoch:1--0	 time:26.737747192382812
+epoch:1--1
+epoch 1 g_loss -0.021290433 w_loss 0.22866741
+epoch:1--1	 time:26.644293069839478
+epoch:1--2
+epoch 1 g_loss -0.021514025 w_loss 0.2452786
+epoch:1--2	 time:26.571902990341187
+epoch:1--3
+epoch 1 g_loss -0.019725673 w_loss 0.1861538
+epoch:1--3	 time:26.655102729797363
+epoch:1--4
+epoch 1 g_loss -0.020404812 w_loss 0.20872158
+epoch:1--4	 time:26.623974323272705
+epoch:1--5
+epoch 1 g_loss -0.017863037 w_loss 0.14383991
+epoch:1--5	 time:26.65423083305359
+epoch:1--6
+epoch 1 g_loss -0.020554492 w_loss 0.24548216
+epoch:1--6	 time:26.6497802734375
+epoch:1--7
+epoch 1 g_loss -0.019713297 w_loss 0.21464832
+epoch:1--7	 time:26.620030641555786
+epoch:1--8
+epoch 1 g_loss -0.020154098 w_loss 0.2550824
+epoch:1--8	 time:26.59239649772644
+epoch:1--9
+epoch 1 g_loss -0.019366523 w_loss 0.21957877
+epoch:1--9	 time:26.587305545806885
+epoch:1--0	 time:286.73614597320557
+epoch:1--1	 time:286.79427099227905
+epoch:1--2	 time:286.79820799827576
+epoch:1--3	 time:286.7786707878113
+epoch:1--4	 time:286.77222752571106
+epoch:1--0
+epoch:1--1
+epoch:1--2
+epoch:1--3
+epoch:1--4
+epoch:2--0
+epoch 2 g_loss -0.01631988 w_loss 0.11634572
+epoch:2--0	 time:26.614035606384277
+epoch:2--1
+epoch 2 g_loss -0.017354792 w_loss 0.13354252
+epoch:2--1	 time:26.647730827331543
+epoch:2--2
+epoch 2 g_loss -0.017082443 w_loss 0.12246039
+epoch:2--2	 time:26.653806447982788
+epoch:2--3
+epoch 2 g_loss -0.016956314 w_loss 0.1173836
+epoch:2--3	 time:26.668797492980957
+epoch:2--4
+epoch 2 g_loss -0.01712162 w_loss 0.12246368
+epoch:2--4	 time:26.59089756011963
+epoch:2--5
+epoch 2 g_loss -0.017427066 w_loss 0.1289878
+epoch:2--5	 time:26.610885858535767
+epoch:2--6
+epoch 2 g_loss -0.016990352 w_loss 0.12413882
+epoch:2--6	 time:26.621686935424805
+epoch:2--7
+epoch 2 g_loss -0.016904596 w_loss 0.12031239
+epoch:2--7	 time:26.578933477401733
+epoch:2--8
+epoch 2 g_loss -0.01660508 w_loss 0.12334702
+epoch:2--8	 time:26.54336404800415
+epoch:2--9
+epoch 2 g_loss -0.018306082 w_loss 0.16288723
+epoch:2--9	 time:26.55031180381775
+epoch:2--0	 time:286.5056712627411
+epoch:2--1	 time:286.47574734687805
+epoch:2--2	 time:286.48270320892334
+epoch:2--3	 time:286.45246720314026
+epoch:2--4	 time:286.5083420276642
+epoch:2--0
+epoch:2--1
+epoch:2--2
+epoch:2--3
+epoch:2--4
+epoch:3--0
+epoch 3 g_loss -0.014430194 w_loss 0.107514
+epoch:3--0	 time:26.628408670425415
+epoch:3--1
+epoch 3 g_loss -0.015515594 w_loss 0.121186666
+epoch:3--1	 time:26.55826735496521
+epoch:3--2
+epoch 3 g_loss -0.015982565 w_loss 0.122239366
+epoch:3--2	 time:26.54500126838684
+epoch:3--3
+epoch 3 g_loss -0.016205342 w_loss 0.11512292
+epoch:3--3	 time:26.538594961166382
+epoch:3--4
+epoch 3 g_loss -0.017060861 w_loss 0.13962571
+epoch:3--4	 time:26.561691999435425
+epoch:3--5
+epoch 3 g_loss -0.017021677 w_loss 0.13491653
+epoch:3--5	 time:26.561522006988525
+epoch:3--6
+epoch 3 g_loss -0.017401522 w_loss 0.1511188
+epoch:3--6	 time:26.50472855567932
+epoch:3--7
+epoch 3 g_loss -0.017526114 w_loss 0.15428415
+epoch:3--7	 time:26.519764184951782
+epoch:3--8
+epoch 3 g_loss -0.017397216 w_loss 0.15295765
+epoch:3--8	 time:26.55065608024597
+epoch:3--9
+epoch 3 g_loss -0.01742718 w_loss 0.15177035
+epoch:3--9	 time:26.503425121307373
+epoch:3--0	 time:286.4187400341034
+epoch:3--1	 time:286.487087726593
+epoch:3--2	 time:286.45999693870544
+epoch:3--3	 time:286.4400317668915
+epoch:3--4	 time:286.47636580467224
+epoch:3--0
+epoch:3--1
+epoch:3--2
+epoch:3--3
+epoch:3--4
+epoch:4--0
+epoch 4 g_loss -0.015208415 w_loss 0.17321545
+epoch:4--0	 time:26.52395272254944
+epoch:4--1
+epoch 4 g_loss -0.014681986 w_loss 0.101732336
+epoch:4--1	 time:26.47119975090027
+epoch:4--2
+epoch 4 g_loss -0.016254647 w_loss 0.13289179
+epoch:4--2	 time:26.448391437530518
+epoch:4--3
+epoch 4 g_loss -0.016575357 w_loss 0.1333275
+epoch:4--3	 time:26.48321032524109
+epoch:4--4
+epoch 4 g_loss -0.016879886 w_loss 0.14003167
+epoch:4--4	 time:26.485592126846313
+epoch:4--5
+epoch 4 g_loss -0.017121043 w_loss 0.14514285
+epoch:4--5	 time:26.562066316604614
+epoch:4--6
+epoch 4 g_loss -0.017615113 w_loss 0.17289151
+epoch:4--6	 time:26.569342851638794
+epoch:4--7
+epoch 4 g_loss -0.018131452 w_loss 0.19586262
+epoch:4--7	 time:26.54734992980957
+epoch:4--8
+epoch 4 g_loss -0.01761483 w_loss 0.18147068
+epoch:4--8	 time:26.559379816055298
+epoch:4--9
+epoch 4 g_loss -0.01779319 w_loss 0.18192533
+epoch:4--9	 time:26.550692558288574
+epoch:4--0	 time:286.6283333301544
+epoch:4--1	 time:286.7404420375824
+epoch:4--2	 time:286.7380449771881
+epoch:4--3	 time:286.81743121147156
+epoch:4--4	 time:286.82177329063416
+epoch:4--0
+epoch:4--1
+epoch:4--2
+epoch:4--3
+epoch:4--4
+epoch:5--0
+epoch 5 g_loss -0.012525872 w_loss 0.08335891
+epoch:5--0	 time:26.588055849075317
+time elapsed of EmbeddingSimilarity: 54.40664458274841
+time elapsed of nll-test: 286.6130278110504
+epoch:131	EmbeddingSimilarity:-0.005157772816083101	nll-test:1.2144572	
+epoch:5--1
+epoch 5 g_loss -0.018810915 w_loss 0.17881875
+epoch:5--1	 time:26.561424732208252
+time elapsed of EmbeddingSimilarity: 54.43950343132019
+time elapsed of nll-test: 286.7263720035553
+epoch:132	EmbeddingSimilarity:-0.005437462892095708	nll-test:1.1790683	
+epoch:5--2
+epoch 5 g_loss -0.018602379 w_loss 0.14668122
+epoch:5--2	 time:26.57572293281555
+time elapsed of EmbeddingSimilarity: 54.43797731399536
+time elapsed of nll-test: 286.8824713230133
+epoch:133	EmbeddingSimilarity:-0.005379121083303665	nll-test:1.1697967	
+epoch:5--3
+epoch 5 g_loss -0.018601893 w_loss 0.13602133
+epoch:5--3	 time:26.56761932373047
+time elapsed of EmbeddingSimilarity: 54.50166583061218
+time elapsed of nll-test: 286.9845070838928
+epoch:134	EmbeddingSimilarity:-0.005379376842996636	nll-test:1.1649874	
+epoch:5--4
+epoch 5 g_loss -0.019931244 w_loss 0.16497512
+epoch:5--4	 time:26.58401322364807
+time elapsed of EmbeddingSimilarity: 54.64567947387695
+time elapsed of nll-test: 286.9838728904724
+epoch:135	EmbeddingSimilarity:-0.005488202442599708	nll-test:1.1597328	
+epoch:5--5
+epoch 5 g_loss -0.019404111 w_loss 0.15110707
+epoch:5--5	 time:26.57681179046631
+time elapsed of EmbeddingSimilarity: 54.40166759490967
+time elapsed of nll-test: 286.70203924179077
+epoch:136	EmbeddingSimilarity:-0.0054543402290177815	nll-test:1.1533211	
+epoch:5--6
+epoch 5 g_loss -0.020226674 w_loss 0.15962645
+epoch:5--6	 time:26.581153631210327
+time elapsed of EmbeddingSimilarity: 54.54808712005615
+time elapsed of nll-test: 286.8598725795746
+epoch:137	EmbeddingSimilarity:-0.006127632633267804	nll-test:1.1482674	
+epoch:5--7
+epoch 5 g_loss -0.019877942 w_loss 0.1686302
+epoch:5--7	 time:26.579634428024292
+time elapsed of EmbeddingSimilarity: 54.55736970901489
+time elapsed of nll-test: 286.7892220020294
+epoch:138	EmbeddingSimilarity:-0.005977763958378248	nll-test:1.146946	
+epoch:5--8
+epoch 5 g_loss -0.019883102 w_loss 0.1554914
+epoch:5--8	 time:26.57888436317444
+time elapsed of EmbeddingSimilarity: 54.67711591720581
+time elapsed of nll-test: 286.8187961578369
+epoch:139	EmbeddingSimilarity:-0.005893712968006051	nll-test:1.1453245	
+epoch:5--9
+epoch 5 g_loss -0.019422665 w_loss 0.1385891
+epoch:5--9	 time:26.57123327255249
+time elapsed of EmbeddingSimilarity: 54.392114877700806
+time elapsed of nll-test: 286.8501453399658
+epoch:140	EmbeddingSimilarity:-0.00573496625964289	nll-test:1.1417885	
+epoch:5--0	 time:286.86640882492065
+epoch:5--1	 time:287.0729548931122
+epoch:5--2	 time:287.082905292511
+epoch:5--3	 time:286.9364125728607
+epoch:5--4	 time:287.1522943973541
+epoch:5--0
+epoch:5--1
+epoch:5--2
+epoch:5--3
+epoch:5--4
+epoch:6--0
+epoch 6 g_loss -0.015302604 w_loss 0.13712595
+epoch:6--0	 time:26.610413074493408
+epoch:6--1
+epoch 6 g_loss -0.01703682 w_loss 0.17056815
+epoch:6--1	 time:26.559321880340576
+epoch:6--2
+epoch 6 g_loss -0.01696642 w_loss 0.15867393
+epoch:6--2	 time:26.582260847091675
+epoch:6--3
+epoch 6 g_loss -0.01611398 w_loss 0.12534866
+epoch:6--3	 time:26.588358879089355
+epoch:6--4
+epoch 6 g_loss -0.016007857 w_loss 0.12835972
+epoch:6--4	 time:26.586969137191772
+epoch:6--5
+epoch 6 g_loss -0.017271778 w_loss 0.16908634
+epoch:6--5	 time:26.636444807052612
+epoch:6--6
+epoch 6 g_loss -0.016454985 w_loss 0.15723841
+epoch:6--6	 time:26.55676531791687
+epoch:6--7
+epoch 6 g_loss -0.016625414 w_loss 0.15511902
+epoch:6--7	 time:26.56565284729004
+epoch:6--8
+epoch 6 g_loss -0.016664501 w_loss 0.16021396
+epoch:6--8	 time:26.521153450012207
+epoch:6--9
+epoch 6 g_loss -0.016621633 w_loss 0.1572742
+epoch:6--9	 time:26.572014570236206
+epoch:6--0	 time:286.7249581813812
+epoch:6--1	 time:286.70880579948425
+epoch:6--2	 time:286.7812581062317
+epoch:6--3	 time:286.7616665363312
+epoch:6--4	 time:286.74039936065674
+epoch:6--0
+epoch:6--1
+epoch:6--2
+epoch:6--3
+epoch:6--4
+epoch:7--0
+epoch 7 g_loss -0.014228429 w_loss 0.106194906
+epoch:7--0	 time:26.571303367614746
+epoch:7--1
+epoch 7 g_loss -0.0155864 w_loss 0.12520462
+epoch:7--1	 time:26.582314491271973
+epoch:7--2
+epoch 7 g_loss -0.015054846 w_loss 0.10380509
+epoch:7--2	 time:26.57064127922058
+epoch:7--3
+epoch 7 g_loss -0.015246868 w_loss 0.10175442
+epoch:7--3	 time:26.562466382980347
+epoch:7--4
+epoch 7 g_loss -0.015769502 w_loss 0.11476573
+epoch:7--4	 time:26.592365264892578
+epoch:7--5
+epoch 7 g_loss -0.015511691 w_loss 0.110472284
+epoch:7--5	 time:26.584059476852417
+epoch:7--6
+epoch 7 g_loss -0.015595546 w_loss 0.11624896
+epoch:7--6	 time:26.57586407661438
+epoch:7--7
+epoch 7 g_loss -0.015317863 w_loss 0.10500231
+epoch:7--7	 time:26.54946732521057
+epoch:7--8
+epoch 7 g_loss -0.01541133 w_loss 0.11890871
+epoch:7--8	 time:26.565338134765625
+epoch:7--9
+epoch 7 g_loss -0.015858179 w_loss 0.12209439
+epoch:7--9	 time:26.529947996139526
+epoch:7--0	 time:286.6430776119232
+epoch:7--1	 time:286.7586600780487
+epoch:7--2	 time:286.6692748069763
+epoch:7--3	 time:286.56434965133667
+epoch:7--4	 time:286.6929006576538
+epoch:7--0
+epoch:7--1
+epoch:7--2
+epoch:7--3
+epoch:7--4
+epoch:8--0
+epoch 8 g_loss -0.015332848 w_loss 0.15086026
+epoch:8--0	 time:26.545087575912476
+epoch:8--1
+epoch 8 g_loss -0.014245119 w_loss 0.10156675
+epoch:8--1	 time:26.55494499206543
+epoch:8--2
+epoch 8 g_loss -0.015605917 w_loss 0.12624042
+epoch:8--2	 time:26.541292667388916
+epoch:8--3
+epoch 8 g_loss -0.014343422 w_loss 0.0823464
+epoch:8--3	 time:26.563035011291504
+epoch:8--4
+epoch 8 g_loss -0.015490333 w_loss 0.10789806
+epoch:8--4	 time:26.58571219444275
+epoch:8--5
+epoch 8 g_loss -0.014467881 w_loss 0.085977666
+epoch:8--5	 time:26.55550789833069
+epoch:8--6
+epoch 8 g_loss -0.014379365 w_loss 0.0839059
+epoch:8--6	 time:26.643539428710938
+epoch:8--7
+epoch 8 g_loss -0.01484818 w_loss 0.09677832
+epoch:8--7	 time:26.681519985198975
+epoch:8--8
+epoch 8 g_loss -0.015119922 w_loss 0.09903037
+epoch:8--8	 time:26.729252576828003
+epoch:8--9
+epoch 8 g_loss -0.014920058 w_loss 0.08863953
+epoch:8--9	 time:26.55245065689087
+epoch:8--0	 time:286.6150691509247
+epoch:8--1	 time:286.6320958137512
+epoch:8--2	 time:286.6156072616577
+epoch:8--3	 time:286.63032507896423
+epoch:8--4	 time:286.66858887672424
+epoch:8--0
+epoch:8--1
+epoch:8--2
+epoch:8--3
+epoch:8--4
+epoch:9--0
+epoch 9 g_loss -0.014549025 w_loss 0.12635961
+epoch:9--0	 time:26.55067276954651
+epoch:9--1
+epoch 9 g_loss -0.014738329 w_loss 0.10932524
+epoch:9--1	 time:26.607250690460205
+epoch:9--2
+epoch 9 g_loss -0.013503371 w_loss 0.09378968
+epoch:9--2	 time:26.635741710662842
+epoch:9--3
+epoch 9 g_loss -0.014037008 w_loss 0.09745045
+epoch:9--3	 time:26.60506558418274
+epoch:9--4
+epoch 9 g_loss -0.013862224 w_loss 0.10022703
+epoch:9--4	 time:26.645498275756836
+epoch:9--5
+epoch 9 g_loss -0.014693557 w_loss 0.081324294
+epoch:9--5	 time:26.62278914451599
+epoch:9--6
+epoch 9 g_loss -0.015854549 w_loss 0.09956817
+epoch:9--6	 time:26.611668825149536
+epoch:9--7
+epoch 9 g_loss -0.015452 w_loss 0.09737007
+epoch:9--7	 time:26.614300966262817
+epoch:9--8
+epoch 9 g_loss -0.015367253 w_loss 0.100444734
+epoch:9--8	 time:26.61570382118225
+epoch:9--9
+epoch 9 g_loss -0.01566558 w_loss 0.112888046
+epoch:9--9	 time:26.634697198867798
+epoch:9--0	 time:286.8006269931793
+epoch:9--1	 time:286.8382759094238
+epoch:9--2	 time:286.84078764915466
+epoch:9--3	 time:286.75460290908813
+epoch:9--4	 time:286.8148789405823
+epoch:9--0
+epoch:9--1
+epoch:9--2
+epoch:9--3
+epoch:9--4
